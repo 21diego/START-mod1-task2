@@ -21,8 +21,9 @@ header {
 }
 
 #back {
-	width: 100%;
-	height: 50vh;
+	background-image: url("../img/design2_image1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #titulo_principal {
