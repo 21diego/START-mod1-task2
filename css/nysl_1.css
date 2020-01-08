@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	font-family: 'Indie Flower', cursive;
+	width: 100%;
+	max-width: 1000px;
+}
+
+/*Estilos Header*/
+header {
+	width: 100%;
+	max-width: 1000px;
+	height: 50vh;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#back {
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+#titulo_principal {
+	position: absolute;
+	z-index: 200;
+	font-size: 52px;
+	color: white;
+	margin-left: 10px;
+}
+
+#titulo_pagina {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 0px;
+	background: black;
+	color: white;
+	height: 7vh;
+	padding-bottom: 5px;
+	font-size: 30px;
+}
+
+#caja_logo {
+	position: absolute;
+	z-index: 200;
+	background: white;
+	right: 5%;
+	bottom: -40px;
+	width: 120px;
+	border: solid 3px black;
+}
+
+#logo {
+	width: 100%;
+}
+
+/***Estilos nav****/
+#conteiner {
+	display: flex;
+}
+
+nav {
+	margin-left: 0;
+	width: 20%;
+}
+#menu {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+#menu li {
+	margin-left: 0;
+}
+
+.menu_link {
+	text-decoration: none;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+/**Estilos Main**/
+
+main {
+	margin: 0;
+	width: 80%;
+}
+
+main h3 {
+	font-size: 28px;
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+
+main p {
+	font-size: 20px;
+	margin-left: 20px;
+}
