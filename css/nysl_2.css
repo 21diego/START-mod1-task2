@@ -17,17 +17,26 @@ body {
 
 header {
 	width: 100%;
+	height: 50vh;
 	position: relative;
+	border: black solid 2px;
+	margin-top: 70px;
+	
 }
 
 #back {
 	background-image: url("../img/design2_image1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100%;
 }
 
-#titulo_principal {
-	font-size: 48px;
+#titulo_principal{
+	position: absolute;
+	top: -70px;
+	font-size: 40px;
+	color: black;
+	margin-left: 30px;
 }
 
 #titulo_pagina {
@@ -63,13 +72,13 @@ nav {
 	margin: 0;
 	position: absolute;
 	right: 0;
-	top: -340px;
+	top: -330px;
 }
 
 #menu li {
 	margin-left: 0;
 	border: solid 2px black;
-	background: white;
+	background: blue;
 	-webkit-box-shadow: 9px 10px 0px -3px #000000; 
 	box-shadow: 9px 10px 0px -3px #000000;
 }
@@ -84,7 +93,7 @@ nav {
 	font-size: 20px;
 	font-style: italic;
 	font-weight: bold;
-	color: #8BEA23;
+	color: white;
 	margin-right: 20px;
 }
 
@@ -104,6 +113,7 @@ main {
 	width: 75%;
  	float: right;
  	margin-top: 20px;
+ 	margin-bottom: 30px;
 }
 
 main h3 {

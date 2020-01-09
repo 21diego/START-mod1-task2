@@ -65,6 +65,7 @@ header {
 .menu_link{
 	text-decoration: none;
 	font-size: 28px;
+	color: #8BEA23;
 }
 
 ._select{
@@ -83,6 +84,7 @@ header {
 main {
 	border: 2px solid #8BEA23;
 	margin:0 10%;
+	margin-bottom: 30px;
 }
 
 main h3 {
